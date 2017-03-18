@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container" style="padding-top: 2em;">
+  <div class="page-header text-center">
+    <h1>Days Since Last <small>"Hi, I'm Ryan Deiss"</small></h1>
+  </div>
+
+  <div class="text-center">
+    <div style="font-size: 200px; color: red;">
+      <%= @days_since %>
+    </div>
+    <div>
+      <%= render 'form' %>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @counters.each do |counter| %>
+      <tr>
+        <td><%= link_to 'Show', counter %></td>
+        <td><%= link_to 'Edit', edit_counter_path(counter) %></td>
+        <td><%= link_to 'Destroy', counter, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table> -->
+
+<!-- <br> -->
+
+<!-- <%= link_to 'New Counter', new_counter_path %> -->
